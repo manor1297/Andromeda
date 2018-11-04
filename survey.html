@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>
+			Andromeda- Latest Tech Updates and much more. 
+		</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <link rel="icon" href="images/icon.png">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div class="header-inner">
+				<a href="index.html" id="logo" ></a>
+				<nav>
+					<a href="#" class="menu-icon"><i class="material-icons">menu</i></a>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="meet.html">Meet Android</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="survey.html" class="current">Survey</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="banner" id="survey-banner">
+				<div id="banner-inner">
+					<img src="images/survey.png" alt="Survey">
+				</div>
+			</section>
+			<section class="inner-wrapper" >
+				<article class="form">
+					<form>
+						<fieldset id="quiz-wrapper">
+							<legend>Quiz time..!</legend>
+							<table>
+								<tr>
+								<td colspan="2">Q1>  Which version of Android was created for tablets?</td>
+								</tr>
+								<tr>
+								<td><input type="radio" name="q1" class="radio">&nbsp;&nbsp;&nbsp;Gingerbread</td>
+								<td><input type="radio" name="q1" class="radio">&nbsp;&nbsp;&nbsp;Honeycomb</td>
+								</tr>
+								<tr>
+								<td colspan="2">Q2>  What is the name of the latest version of android?</td>
+								</tr>
+								<tr>
+								<td><input type="radio" name="q2" class="radio">&nbsp;&nbsp;&nbsp;Peppermint</td>
+								<td><input type="radio" name="q2" class="radio">&nbsp;&nbsp;&nbsp;Pickle</td>
+								</tr>
+								<tr>
+								<td colspan="2">Q3>  Of what theme are Androids version names?</td>
+								</tr>
+								<tr>
+								<td><input type="radio" name="q3" class="radio">&nbsp;&nbsp;&nbsp;Space</td>
+								<td><input type="radio" name="q3" class="radio">&nbsp;&nbsp;&nbsp;Sweets</td>
+								</tr>
+								<tr>
+								<td colspan="2">Q4>  Which company owns Android?</td>
+								</tr>
+								<tr>
+								<td><input type="radio" name="q4" class="radio">&nbsp;&nbsp;&nbsp;Apple</td>
+								<td><input type="radio" name="q4" class="radio">&nbsp;&nbsp;&nbsp;Google</td>
+								</tr>
+							</table> 
+						</fieldset>
+					</form>
+				</article>
+			</section>
+			</section>
+			<section class="inner-wrapper" id="user-review">
+				<article class="form">
+					<form>
+						<fieldset id="quiz-wrapper">
+							<legend>User Review</legend>
+							<table id="">
+								<tr>
+								<td>Rate our website</td>
+								</tr>
+								<tr>
+								<td><input type="range" min="1" max="10" value="5" class="slider" id="range"></td>
+								</tr>
+								<tr>
+									<td><p>Rating : <span id="output"></span></p></td>
+								</tr>
+								<tr>
+								<td>Areas of improvement?</td>
+								</tr>
+								<tr>
+									<td><input list="list" id="list" placeholder="Select..."></td>
+									<datalist id="list">
+										<option value="UI">UI</option>
+										<option value="Content">Content</option>
+										<option value="Text effects">TextEffects</option>
+										<option value="Color palette">Colors</option>
+									</datalist>
+								</tr>
+								<tr>
+									<td>Comments:</td>
+								</tr>
+								<tr>
+									<td><textarea id="suggestions" placeholder="Enter text here..."></textarea></td>
+								</tr>
+								<tr>
+									<td><input type="submit" value="SUBMIT" id="submit-button"></td>
+								</tr>
+							</table> 
+
+						</fieldset>
+					</form>
+
+				</article>
+			</section>
+		</main>
+		<div class="filler" id="survey-filler"></div>
+		<footer>
+			<div class="footer-wrapper"><h1>&copy; Manor Deshmukh<h1></div>
+		</footer>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
